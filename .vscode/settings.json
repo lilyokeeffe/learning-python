@@ -1,0 +1,19 @@
+{
+    "terminal.integrated.suggest.inlineSuggestion": "off",
+    "accessibility.signals.lineHasInlineSuggestion": {
+        "sound": "off"
+    },
+    "python-envs.pythonProjects": [
+        {
+            "path": "pandas_project",
+            "envManager": "ms-python.python:system",
+            "packageManager": "ms-python.python:pip"
+        },
+        {
+            "path": "kaggle_practise.py",
+            "envManager": "ms-python.python:system",
+            "packageManager": "ms-python.python:pip"
+        }
+    ],
+    "python-envs.defaultEnvManager": "ms-python.python:system"
+}
