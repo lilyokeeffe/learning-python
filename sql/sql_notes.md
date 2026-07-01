@@ -41,3 +41,20 @@ WHERE name<>capital
 
 Excluding rows from results that match a pattern:
 AND name NOT LIKE '%z%'
+
+## DAY 3-SELECT from nobel
+Sorting based on column values:
+ORDER BY year DESC
+
+Sorting by whether a condition is true or false:
+ORDER BY subject IN ('physics','chemistry')
+(true=1, false=0, matching rows sort at the bottom)
+
+Counting the number of values in a column:
+SELECT COUNT(subject) FROM nobel
+
+Counting unique values:
+COUNT (DISTINCT subject)
+
+Removing duplicate results:
+SELECT DISTINCT year
