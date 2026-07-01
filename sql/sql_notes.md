@@ -58,3 +58,19 @@ COUNT (DISTINCT subject)
 
 Removing duplicate results:
 SELECT DISTINCT year
+
+## DAY 4-SUM and COUNT
+Finding the sum of numerical values:
+WHERE SUM(population)=1000000
+
+Grouping values:
+GROUP BY continent
+
+Filtering displayed groups:
+GROUP BY continent HAVING SUM(population)=100000000
+
+Core aggregate functions in SQL:
+AVG(), COUNT(), SUM(), MIN(), MAX()
+
+Changing the name of an output column:
+SELECT name AS country
